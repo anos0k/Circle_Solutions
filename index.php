@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Circle Solutions</title>
+    <meta name="description" content="Circle Solutions develops custom software that helps businesses work more efficiently.">
+
+    <link rel="icon" href="material/logo/circle.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page">
+    <canvas id="bg-canvas" class="bg-canvas"></canvas>
+
+    <header class="header">
+
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <div class="logo-mark"></div>
+                <div class="text-logo">
+                    <span>Circle</span>
+                    <span>Solutions</span>
+                </div>
+                <span class="text-logo-short">CS</span>
+            </a>
+            <form class="search" role="search" action="#" method="get">
+                <input type="search" name="q" class="search__input">
+                <button type="submit" class="search__btn" aria-label="Search">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="11" cy="11" r="7"></circle>
+                        <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+                    </svg>
+                </button>
+            </form>
+            <div class="settings">
+                <a href="#" class="lang-btn" aria-label="Language">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="12" cy="12" r="9"></circle>
+                        <path d="M3.6 9h16.8M3.6 15h16.8"></path>
+                        <path d="M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"></path>
+                    </svg>
+                    <span>NL</span>
+                </a>
+            </div>
+        </div>
+
+        <hr class="header-line">
+
+        <div class="nav-bar">
+            <div class="container nav-container">
+                <nav class="nav" id="nav">
+                    <a href="products.html"><span>Products</span></a>
+                    <a href="information.html"><span>About Us</span></a>
+                    <a href="#reviews"><span>Partners</span></a>
+                    <a href="contact.html"><span>Contact Us</span></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="main">
+
+        <section class="section">
+            <div class="container stagger">
+
+                <article class="stagger-card stagger-card--left">
+                    <div class="stagger-card__text">
+                        <h1>Just connect the dots</h1>
+                        <p>Circle Solutions develops custom software that helps businesses work more efficiently. We do it without the fuss: no unnecessary features, no complicated systems. Only what’s needed.</p>
+                    </div>
+
+                    <div class="slot slot--media stagger-card__media" data-label="Картинка 1">
+                        <img src="material/logo/home-1.svg" alt="Three connected circles">
+                    </div>
+                </article>
+
+
+                <article class="stagger-card stagger-card--right stagger-card--reverse">
+                    <div class="stagger-card__text">
+                        <h2>Software that fits you</h2>
+                        <p>Our purpose is to develop software that fits the individual needs of every company, and to empower people and businesses with solutions that make everyday tasks no hassle.</p>
+                    </div>
+
+                    <div class="slot slot--media stagger-card__media" data-label="Картинка 2">
+                        <img src="material/logo/home-2.svg" alt="Connected systems around one hub">
+                    </div>
+                </article>
+
+
+                <article class="stagger-card stagger-card--left">
+                    <div class="stagger-card__text">
+                        <h2>D.O.T.S</h2>
+                        <p>Our main solution: simple, effective and reasonable. It is the basis for everything we tailor to your business, from data integration to ready-to-use workflows.</p>
+                    </div>
+
+                    <div class="slot slot--media stagger-card__media" data-label="Картинка 3">
+                        <img src="material/logo/home-3.svg" alt="Data and analysis chart">
+                    </div>
+                </article>
+
+                <section class="section reviews" id="reviews" aria-labelledby="reviews-title">
+                    <div class="reviews__slider">
+                        <button class="reviews__btn reviews__btn--prev" type="button" aria-label="Предыдущий отзыв">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+
+                        <div class="reviews__viewport" id="reviews-viewport" tabindex="0">
+                            <ul class="reviews__track" id="reviews-track">
+                                <li class="review">
+                                    <p class="review__text">Circle Solutions replaced three separate tools with one clean system. Our team spent less time switching between apps and more time actually getting work done.</p>
+                                    <div class="review__author">
+                                        <span class="review__company"><strong>Amazon</strong></span>
+                                        <span class="review__role">Jef Besos, CEO</span>
+                                    </div>
+                                </li>
+                                <li class="review">
+                                    <p class="review__text">We needed something simple that just worked. No endless configuration, no training manuals the size of a novel. That’s exactly what we got.</p>
+                                    <div class="review__author">
+                                        <span class="review__company"><strong>USA</strong></span>
+                                        <span class="review__role">Tatiana Salnikova, Head Manager</span>
+                                    </div>
+                                </li>
+                                <li class="review">
+                                    <p class="review__text">D.O.T.S connected our data sources in a way that finally made sense. Reports that used to take days now take minutes. Quietly impressive.</p>
+                                    <div class="review__author">
+                                        <span class="review__company"><strong>Meta</strong></span>
+                                        <span class="review__role">Mark Zuckerberg, CEO</span>
+                                    </div>
+                                </li>
+                                <li class="review">
+                                    <p class="review__text">They listened, built what we asked for, and left out everything we didn’t need. Rare these days. The software feels like it was made for us, because it was.</p>
+                                    <div class="review__author">
+                                        <span class="review__company"><strong>RKN</strong></span>
+                                        <span class="review__role">Bob Soliev, Chef Manager</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button class="reviews__btn reviews__btn--next" type="button" aria-label="Следующий отзыв">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+
+                </section>
+
+                <article class="stagger-card stagger-card--centre">
+                    <div class="stagger-card__text">
+                        <h2>Built around your process</h2>
+                        <p>We don’t force you into a rigid template. We map how your team already works, then build software that follows those steps — so adoption feels natural instead of forced.</p>
+                    </div>
+
+                    <div class="slot slot--media stagger-card__media" data-label="Картинка 4">
+                        <img src="material/logo/home-4.svg" alt="Automated workflow">
+                    </div>
+                </article>
+
+                <article class="stagger-card stagger-card--centre stagger-card--reverse">
+                    <div class="stagger-card__text">
+                        <h2>Ready when you are</h2>
+                        <p>From first conversation to working software, we keep the path short and clear. You get a solution that does the job without the usual months of delays and endless change requests.</p>
+                    </div>
+
+                    <div class="slot slot--media stagger-card__media" data-label="Картинка 5">
+                        <img src="material/logo/home-5.svg" alt="Custom software interface">
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Circle Solutions. Software that fits the individual company.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

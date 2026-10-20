@@ -1,0 +1,22 @@
+:root {
+    --container: 1168px;
+    --header-height: 10vh;
+
+    --brand: #a9d6ea;          
+    --brand-strong: #2f6f8a;   
+    --brand-dark: #0f2a38;    
+    --ink: #08161e;           
+    --text: #1f3c4a;        
+    --line: #1c3a4a;           
+    --line-soft: #b9d9e7;      
+    --slot-bg: #e6f2f8;       
+    --surface-soft: #d6eaf4;
+    --border: #1c3a4a;
+}
+
+
+
+.container {
+    width: min(var(--container), calc(100% - 40px));
+    margin: 0 auto;
+}

@@ -1,0 +1,12 @@
+
+.footer {
+    padding: clamp(20px, 3vw, 32px) 0;
+    background: var(--brand-dark);
+    border-top: 2px solid var(--brand-dark);
+}
+
+.footer p {
+    max-width: none;
+    font-size: 0.9rem;
+    color: var(--brand);
+}

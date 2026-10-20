@@ -1,0 +1,5 @@
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Circle Solutions. Software that fits the individual company.</p>
+        </div>
+    </footer>

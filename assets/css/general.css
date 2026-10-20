@@ -1,4 +1,28 @@
+
+
+@font-face {
+    font-family: "Calibre";
+    src: url("../fonts/Calibre-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Calibre";
+    src: url("../fonts/Calibre-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Calibre";
+    src: url("../fonts/Calibre-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-display: swap;
+}
+
 :root {
+
     --container: 1168px;
     --header-height: 10vh;
 
@@ -14,9 +38,69 @@
     --border: #1c3a4a;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: "Calibre";
+    font-weight: 400;
+    background: #ffffff;
+    color: var(--text);
+    line-height: 1;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-weight: 700;
+    color: var(--ink);
+}
+h2 {
+    font-weight: 500;
+    color: var(--brand-dark);
+}
+p {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: var(--text);
+    max-width: 62ch;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover, a:focus {
+   opacity: 0.8;
+}
+
+
+.bg-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    z-index: -1;
+    display: block;
+    pointer-events: none;
+}
 
 
 .container {
     width: min(var(--container), calc(100% - 40px));
     margin: 0 auto;
 }
+
+section {
+    padding: clamp(40px, 6.5vw, 85px) 0;
+}
+

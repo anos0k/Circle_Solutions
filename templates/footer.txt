@@ -1,5 +1,25 @@
     <footer class="footer">
-        <div class="container">
-            <p>© 2026 Circle Solutions. Software that fits the individual company.</p>
+        <div class="footer-container">
+
+            <div class="footer-top">
+                <a href="index.html" class="logo">
+                    <span class="logo-mark"></span>
+                    <span class="logo-text">
+                        <span class="logo-title">circle<br>solutions</span>
+                        <span class="logo-tagline">just connect the dots</span>
+                    </span>
+                </a>
+
+                <div class="footer-contact">
+                    <h3 class="footer-title">Contact</h3>
+                    <ul class="footer-list">
+                        <li><a href="mailto:sarah@circlesolutions.io">sarah@circlesolutions.io</a></li>
+                        <li><a href="tel:+31201234567">+31 (0)20 123 4567</a></li>
+                        <li>Keizersgracht 482, AMS</li>
+                    </ul>
+                </div>
+            </div>
+
+
         </div>
     </footer>

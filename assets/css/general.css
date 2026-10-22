@@ -5,6 +5,9 @@
     src: url("../fonts/Calibre-Regular.otf") format("opentype");
     font-weight: 400;
     font-display: swap;
+    ascent-override: 90%;
+    descent-override: 30%;
+    line-gap-override: 0%;
 }
 
 @font-face {
@@ -12,6 +15,9 @@
     src: url("../fonts/Calibre-Medium.otf") format("opentype");
     font-weight: 500;
     font-display: swap;
+    ascent-override: 90%;
+    descent-override: 30%;
+    line-gap-override: 0%;
 }
 
 @font-face {
@@ -19,22 +25,25 @@
     src: url("../fonts/Calibre-Bold.otf") format("opentype");
     font-weight: 700;
     font-display: swap;
+    ascent-override: 90%;
+    descent-override: 30%;
+    line-gap-override: 0%;
 }
 
 :root {
 
-    --container: 1168px;
+    --container: 1280px;
     --header-height: 10vh;
 
     --brand: #a9d6ea;          
-    --brand-strong: #2f6f8a;   
-    --brand-dark: #0f2a38;    
+    --brand-strong: #b4d3e1;   
+    --brand-dark: #799dad;   
     --ink: #08161e;           
     --text: #1f3c4a;        
     --line: #1c3a4a;           
     --line-soft: #b9d9e7;      
-    --slot-bg: #e6f2f8;       
-    --surface-soft: #d6eaf4;
+    --slot-bg: #cde8f4;       
+    --surface-soft: #ddf0fe;
     --border: #1c3a4a;
 }
 

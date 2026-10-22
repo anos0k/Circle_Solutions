@@ -202,3 +202,55 @@
     window.addEventListener('resize', resizeCanvas);
     resizeCanvas();
 })();
+
+
+(function () {
+    const lang  = document.getElementById('lang');
+    const btn   = document.getElementById('lang-btn');
+    const menu  = document.getElementById('lang-menu');
+    const flag  = document.getElementById('lang-flag');
+    const label = document.getElementById('lang-label');
+    const items = menu.querySelectorAll('li');
+
+    function setOpen(open) {
+        lang.classList.toggle('is-open', open);
+        btn.setAttribute('aria-expanded', open);
+    }
+
+    function setLang(code) {
+        items.forEach(li => {
+            const active = li.dataset.lang === code;
+            li.setAttribute('aria-selected', active);
+            if (active) {
+                flag.src = li.querySelector('img').src;
+                label.textContent = code;
+                document.documentElement.lang = code.toLowerCase();
+            }
+        });
+        try { localStorage.setItem('lang', code); } catch (e) {}
+    }
+
+    btn.addEventListener('click', () => setOpen(!lang.classList.contains('is-open')));
+
+    items.forEach(li => {
+        li.addEventListener('click', () => {
+            setLang(li.dataset.lang);
+            setOpen(false);
+            // тут можно сделать редирект: location.href = '/nl/' + location.pathname.split('/').pop();
+        });
+    });
+
+    document.addEventListener('click', e => {
+        if (!lang.contains(e.target)) setOpen(false);
+    });
+
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') { setOpen(false); btn.focus(); }
+    });
+
+    // восстановить сохранённый язык
+    try {
+        const saved = localStorage.getItem('lang');
+        if (saved) setLang(saved);
+    } catch (e) {}
+})();

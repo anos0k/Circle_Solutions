@@ -236,7 +236,6 @@
         li.addEventListener('click', () => {
             setLang(li.dataset.lang);
             setOpen(false);
-            // тут можно сделать редирект: location.href = '/nl/' + location.pathname.split('/').pop();
         });
     });
 
@@ -248,7 +247,6 @@
         if (e.key === 'Escape') { setOpen(false); btn.focus(); }
     });
 
-    // восстановить сохранённый язык
     try {
         const saved = localStorage.getItem('lang');
         if (saved) setLang(saved);

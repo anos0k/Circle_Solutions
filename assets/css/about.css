@@ -1,11 +1,98 @@
+
+.aboutfirst .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.aboutfirst h2 {
+
+    max-width: 750px;
+    text-align: center;
+    font-size: clamp(2.4rem, 6vw, 4.5rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+
+}
+
+.aboutfirst p{
+
+    max-width: 1000px;
+    font-size: clamp(1.4rem, 6vw, 2rem);
+    text-align: center;
+}
+
+
+.about-us-pictures .container{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;                             
+    align-items: center;    
+
+}
+
+.about-us-pictures .container img{
+
+    width: 100%;                           
+    height: auto;
+
+
+}
+
+.upper{
+    transform: translateY(-60px);
+}
+
+.achivments .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+
+
+    border: 2px solid var(--brand-dark); 
+    border-radius: 12px;    
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    backdrop-filter: blur(2px);
+
+
+
+}
+
+.achivments .container div{
+    display: flex;
+    align-items: center;
+    border-right: 3px solid var(--brand-dark); 
+    
+
+}
+.achivments .container div:last-child {
+  border-right: none;
+}
+.achivments .container div h2{
+
+    font-size: clamp(2.4rem, 6vw, 4.5rem);
+    font-weight: 500;
+    letter-spacing: -0.03em;
+
+}
+
+.achivments .container div p{
+    max-width: 200px;
+    text-align: center;
+    font-size: clamp(1.4rem, 6vw, 2rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+
+}
+
 .about {
     min-height: 0;
     display: block;
-}
-
-.about .container {
-    padding-top: clamp(40px, 6vw, 80px);
-    padding-bottom: clamp(40px, 6vw, 80px);
 }
 
 .about h1 {
@@ -24,3 +111,30 @@
     line-height: 1.45;
 }
 
+.mission {
+    border-top: 2px solid var(--border);
+    border-bottom: 2px solid var(--border);
+    background-color: var(--surface-soft);
+}
+
+.mission h1 {
+    bottom: 0;
+    margin-bottom: 24px;
+
+    font-size: clamp(2.4rem, 6vw, 3.5rem);
+    line-height: 0.95;
+    letter-spacing: 0.00em;
+}
+
+.mission p {
+
+    max-width: 1260px;
+
+    font-size: clamp(1.5rem, 3vw, 4rem);
+    line-height: 1.45;
+
+}
+.mission .container {
+    padding-top: clamp(20px, 6vw, 50px);
+    padding-bottom: clamp(20px, 6vw, 50px);
+}

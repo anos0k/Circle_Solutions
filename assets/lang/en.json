@@ -1,0 +1,32 @@
+{
+    "page.title": "About Us — Circle Solutions",
+    "page.description": "About Circle Solutions",
+
+    "nav.home": "Home",
+    "nav.about": "About",
+    "nav.solutions": "Solutions",
+    "nav.contact": "Contact",
+    "logo.tagline": "just connect the dots",
+
+    "hero.title": "Business success depends on intelligent, real-time custom software",
+    "hero.text": "Circle Solutions provides a unified view of your entire operation—connecting systems, teams, and workflows without unnecessary fluff.",
+
+    "stats.projects": "Projects Completed",
+    "stats.countries": "Countries we worked with",
+    "stats.customers": "Happy Customers",
+
+    "about.title": "About Us",
+    "about.text": "Circle Solutions develops custom software that helps businesses work more efficiently. We do this without the fuss — no unnecessary features, no complicated systems. Only what’s needed. Or, as we like to say: just connect the dots.",
+
+    "mission.title": "Our Mission",
+    "mission.text": "\"Our purpose is to develop software that fits the individual needs of each company, empowering people and businesses with software solutions.\"",
+
+    "why.title": "Why we do it",
+    "why.text": "We think everyday tasks should be hassle-free.",
+    "how.title": "How we do it",
+    "how.text": "By developing software that makes life easier.",
+    "what.title": "What we do",
+    "what.text": "Software solutions that fit the individual company.",
+
+    "footer.contact": "Contact"
+}

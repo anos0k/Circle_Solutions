@@ -18,7 +18,7 @@
     padding-bottom: clamp(24px, 4vw, 40px);
     border-bottom: 1.5px solid rgba(255, 255, 255, .25);
 }
-
+ 
 
 .footer .logo {
     color: var(--brand-dark);

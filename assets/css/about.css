@@ -71,7 +71,7 @@
 
 }
 .achivments .container div:last-child {
-  border-right: none;
+    border-right: none;
 }
 .achivments .container div h2{
 
@@ -91,8 +91,11 @@
 }
 
 .about {
+
+    border-top: solid var(--border);
     min-height: 0;
     display: block;
+    backdrop-filter: blur(1px);
 }
 
 .about h1 {
@@ -137,4 +140,55 @@
 .mission .container {
     padding-top: clamp(20px, 6vw, 50px);
     padding-bottom: clamp(20px, 6vw, 50px);
+}
+
+
+.goldencircles .container{
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.goldencircles .container > div{
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+
+}
+
+.goldencircles .container > div > div{
+
+    display: flex;
+    flex-direction: column;
+
+    flex-grow: 1; 
+    align-self: stretch; 
+    justify-content: center;
+
+    border-bottom: 2px solid var(--border);
+
+}
+
+.goldencircles .container > div > div h1{
+
+    bottom: 0;
+    margin-bottom: 24px;
+
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+
+}
+
+.goldencircles .container > div > div h2{
+
+    max-width: 760px;
+
+    font-size: clamp(1.05rem, 1.7vw, 1.35rem);
+    line-height: 1.45;
+
 }

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>About Us — Circle Solutions</title>
-    <meta name="description" content="About Circle Solutions">
+    <meta name="description" content="About Circle Solutions" data-translate-attr="content:page.description">
 
     <link rel="icon" href="assets/img/circle.png">
     <link rel="stylesheet" href="assets/css/general.css">
@@ -24,35 +24,35 @@
                 <span class="logo-mark"></span>
                 <span class="logo-text">
                     <span class="logo-title">circle<br>solutions</span>
-                    <span class="logo-tagline">just connect the dots</span>
+                    <span class="logo-tagline" data-translate="logo.tagline">just connect the dots</span>
                 </span>
             </a>
 
             <div class="nav-pill">
                 <nav class="nav">
-                    <a href="index.html">Home</a>
-                    <a href="information.html" class="is-current" aria-current="page">About</a>
-                    <a href="products.html">Solutions</a>
-                    <a href="contact.html">Contact</a>
+                    <a href="index.html" data-translate="nav.home">Home</a>
+                    <a href="information.html" class="is-current" data-translate="nav.about">About</a>
+                    <a href="products.html" data-translate="nav.solutions">Solutions</a>
+                    <a href="contact.html" data-translate="nav.contact">Contact</a>
                 </nav>
 
                 <div class="lang" id="lang">
-                    <button type="button" class="lang-btn" id="lang-btn" aria-haspopup="listbox" aria-expanded="false" aria-label="Language">
+                    <button type="button" class="lang-btn" id="lang-btn">
                         <img class="lang-flag" id="lang-flag" src="assets/img/united-kingdom.jpg" alt="">
                         <span id="lang-label">EN</span>
-                        <svg class="lang-btn__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <svg class="lang-btn__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" >
                             <polyline points="5 9 12 16 19 9"></polyline>
                         </svg>
                     </button>
 
                     <ul class="lang-menu" id="lang-menu" role="listbox">
-                        <li role="option" data-lang="EN" aria-selected="true">
+                        <li role="option" data-lang="EN">
                             <button type="button" class="lang-option">
                                 <img class="lang-flag" src="assets/img/united-kingdom.jpg" alt="">
                                 <span>English</span>
                             </button>
                         </li>
-                        <li role="option" data-lang="NL" aria-selected="false">
+                        <li role="option" data-lang="NL">
                             <button type="button" class="lang-option">
                                 <img class="lang-flag" src="assets/img/Flag_of_Netherlands-1024x683.webp" alt="">
                                 <span>Nederlands</span>
@@ -66,11 +66,10 @@
     </header>
 
     <main class="main">
-        <section class="aboutfirst">   
+        <section class="aboutfirst">
             <div class="container">
-                <h2>Business success depends on intelligent, real-time custom software</h2>
-                <p>Circle Solutions provides a unified view of your entire operation—connecting systems, 
-teams, and workflows without unnecessary fluff.</p>
+                <h2 data-translate="hero.title">Business success depends on intelligent, real-time custom software</h2>
+                <p data-translate="hero.text">Circle Solutions provides a unified view of your entire operation—connecting systems, teams, and workflows without unnecessary fluff.</p>
             </div>
         </section>
 
@@ -85,31 +84,53 @@ teams, and workflows without unnecessary fluff.</p>
 
         <section class="achivments">
             <div class="container">
-                <div><h2>150+</h2><p>Projects Completed</p></div>
-                <div><h2>15+</h2><p>Countries we worked with</p></div>
-                <div><h2>250+</h2><p>Happy Customers</p></div>
+                <div><h2>150+</h2><p data-translate="stats.projects">Projects Completed</p></div>
+                <div><h2>15+</h2><p data-translate="stats.countries">Countries we worked with</p></div>
+                <div><h2>250+</h2><p data-translate="stats.customers">Happy Customers</p></div>
             </div>
         </section>
 
-        <section class="about">   
+        <section class="about">
             <div class="container">
-                <h1>About Us</h1>
-                <p>Circle Solutions develops custom software that helps businesses work more efficiently. We
-                    do this without the fuss — no unnecessary features, no complicated systems. Only what’s
-                    needed. Or, as we like to say: just connect the dots.</p>
+                <h1 data-translate="about.title">About Us</h1>
+                <p data-translate="about.text">Circle Solutions develops custom software that helps businesses work more efficiently. We do this without the fuss — no unnecessary features, no complicated systems. Only what’s needed. Or, as we like to say: just connect the dots.</p>
             </div>
         </section>
 
-        <section class="mission">   
+        <section class="mission">
             <div class="container">
-                <h1>Our Mission</h1>
-                <p>"Our purpose is to develop software that fit the individual qualities of individual needs.
-To empowering people & bussiness with
-software solutions"</p>
+                <h1 data-translate="mission.title">Our Mission</h1>
+                <p data-translate="mission.text">"Our purpose is to develop software that fits the individual needs of each company, empowering people and businesses with software solutions."</p>
             </div>
         </section>
 
+        <section class="goldencircles">
+            <div class="container">
 
+                <div>
+                    <img src="assets/img/circle.png" alt="circle">
+                    <div>
+                        <h1 data-translate="why.title">Why we do it</h1>
+                        <h2 data-translate="why.text">We think everyday tasks should be hassle-free.</h2>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/img/circle.png" alt="circle">
+                    <div>
+                        <h1 data-translate="how.title">How we do it</h1>
+                        <h2 data-translate="how.text">By developing software that makes life easier.</h2>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/img/circle.png" alt="circle">
+                    <div>
+                        <h1 data-translate="what.title">What we do</h1>
+                        <h2 data-translate="what.text">Software solutions that fit the individual company.</h2>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
 
 
@@ -121,12 +142,12 @@ software solutions"</p>
                     <span class="logo-mark"></span>
                     <span class="logo-text">
                         <span class="logo-title">circle<br>solutions</span>
-                        <span class="logo-tagline">just connect the dots</span>
+                        <span class="logo-tagline" data-translate="logo.tagline">just connect the dots</span>
                     </span>
                 </a>
 
                 <div class="footer-contact">
-                    <h3 class="footer-title">Contact</h3>
+                    <h3 class="footer-title" data-translate="footer.contact">Contact</h3>
                     <ul class="footer-list">
                         <li><a href="mailto:sarah@circlesolutions.io">sarah@circlesolutions.io</a></li>
                         <li><a href="tel:+31201234567">+31 (0)20 123 4567</a></li>
@@ -135,11 +156,10 @@ software solutions"</p>
                 </div>
             </div>
 
-
         </div>
     </footer>
 
     <script src="assets/js/general.js"></script>
-    
+
 </body>
 </html>

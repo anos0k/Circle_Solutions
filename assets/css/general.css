@@ -309,23 +309,19 @@ section {
 
 .lang {
     position: relative;
-    flex-shrink: 0;
 }
 
 .lang-btn {
     display: flex;
     align-items: center;
     gap: 6px;
-    padding: 6px 4px;
     background: none;
     border: 0;
-    cursor: pointer;
-    font: inherit;
+
     font-size: clamp(17px, 1.7vw, 21px);
     font-weight: 700;
-    line-height: 1;
+
     color: var(--brand-dark);
-    transition: opacity .2s;
 }
 
 .lang-btn:hover {
@@ -337,19 +333,14 @@ section {
     height: 22px;
     border-radius: 50%;
     object-fit: cover;
-    flex-shrink: 0;
+
 }
 
 .lang-btn__chevron {
     width: 16px;
     height: 16px;
-    flex-shrink: 0;
-    transition: transform .2s;
 }
 
-.lang.is-open .lang-btn__chevron {
-    transform: rotate(180deg);
-}
 
 .lang-menu {
     position: absolute;
@@ -365,15 +356,9 @@ section {
     opacity: 0;
     visibility: hidden;
     transform: translateY(-6px);
-    transition: opacity .2s, transform .2s, visibility .2s;
-    z-index: 200;
+    transition: opacity .2s, transform .2s, visibility .2s
 }
 
-.lang.is-open .lang-menu {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-}
 
 .lang-option {
     width: 100%;
@@ -393,18 +378,6 @@ section {
     transition: background-color .2s;
 }
 
-.lang-option:hover{
-    background: var(--brand-strong);
-}
-
-.lang-menu::before {
-    content: "";
-    position: absolute;
-    top: -14px;
-    left: 0;
-    right: 0;
-    height: 14px;
-}
  
 .lang:hover .lang-menu,
 .lang:focus-within .lang-menu {
@@ -416,10 +389,6 @@ section {
 .lang:hover .lang-btn__chevron,
 .lang:focus-within .lang-btn__chevron {
     transform: rotate(180deg);
-}
- 
-.lang-option {
-    text-decoration: none;
 }
  
 

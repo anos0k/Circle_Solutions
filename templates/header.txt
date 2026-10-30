@@ -16,29 +16,11 @@
                     <a href="products.html">Solutions</a>
                     <a href="contact.html">Contact</a>
                 </nav>
-                <div class="lang" id="lang">
-                    <button type="button" class="lang-btn" id="lang-btn">
-                        <img class="lang-flag" id="lang-flag" src="assets/img/united-kingdom.jpg" alt="">
-                        <span id="lang-label">EN</span>
-                        <svg class="lang-btn__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" >
-                            <polyline points="5 9 12 16 19 9"></polyline>
-                        </svg>
-                    </button>
-
-                    <ul class="lang-menu" id="lang-menu" role="listbox">
-                        <li role="option" aria-selected="true">
-                            <a href="about.html" class="lang-option" hreflang="en">
-                                <img class="lang-flag" src="assets/img/united-kingdom.jpg" alt="">
-                                <span>English</span>
-                            </a>
-                        </li>
-                        <li role="option">
-                            <a href="about_nl.html" class="lang-option" hreflang="nl">
-                                <img class="lang-flag" src="assets/img/Flag_of_Netherlands-1024x683.webp" alt="">
-                                <span>Nederlands</span>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="lang">
+                    <a href="about_nl.html" class="lang-option" hreflang="nl">
+                        <img class="lang-flag" src="assets/img/Flag_of_Netherlands-1024x683.webp" alt="">
+                        <span>NL</span>
+                    </a>
                 </div>
             </div>
         </div>

@@ -198,7 +198,6 @@
 
 .section-label {
     display: flex;
-    align-items: center;
     gap: 14px;
     margin-bottom: clamp(32px, 4vw, 56px);
     font-size: clamp(1.2rem, 2.2vw, 2rem);
@@ -224,13 +223,13 @@
     padding-top: 0;
 }
 
-.vm-grid {
+.visionmision-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
-.vm-card {
+.visionmision-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -241,7 +240,7 @@
     border-radius: 16px;
 }
 
-.vm-card h3 {
+.visionmision-card h3 {
     margin-bottom: clamp(16px, 2vw, 28px);
     font-size: clamp(1.8rem, 3vw, 2.6rem);
     font-weight: 700;
@@ -251,7 +250,7 @@
     color: var(--brand-dark);
 }
 
-.vm-card p {
+.visionmision-card p {
     max-width: 23ch;
     font-size: clamp(1.4rem, 2.3vw, 2.1rem);
     font-weight: 500;
@@ -261,89 +260,6 @@
 
 
 
-.values-map {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 1280 / 960;
-}
-
-.values-lines {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.values-lines line {
-    fill: none;
-    stroke-linecap: butt;
-}
-
-
-.vl-outer line { stroke: var(--ring); stroke-width: 18; }
-.vl-inner line { stroke: #fff;        stroke-width: 14; }
-
-.value-node {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    aspect-ratio: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: clamp(10px, 2.2vw, 30px);
-    background: #fff;
-    border: 3px solid var(--ring);
-    border-radius: 50%;
-    z-index: 1;
-}
-
-
-.value-node::before {
-    content: "";
-    position: absolute;
-    inset: clamp(6px, 1vw, 12px);
-    border: 2px solid var(--ring);
-    border-radius: 50%;
-    pointer-events: none;
-}
-
-.value-node--1 { left: 15%;   top: 18.75%; width: 26.1%; }
-.value-node--2 { left: 83.5%; top: 44.8%;  width: 32%;   }
-.value-node--3 { left: 40.6%; top: 76.6%;  width: 33.6%; }
-
-.value-node h3 {
-    margin-bottom: 0.4em;
-    font-size: clamp(2.1rem, 2.4vw, 3.2rem);
-    font-weight: 700;
-    line-height: 1.05;
-    color: var(--brand-dark);
-}
-
-.value-node p {
-    max-width: 22ch;
-    font-size: clamp(1.2rem, 1.5vw, 2.85rem);
-    line-height: 1.3;
-    color: var(--brand);
-}
-
-
-
-.section-head {
-    margin-bottom: clamp(24px, 3vw, 40px);
-}
-
-.section-head .section-label {
-    margin-bottom: 8px;
-}
-
-.section-sub {
-    max-width: none;
-    padding-left: clamp(30px, 3.4vw, 46px);
-    font-size: clamp(1.2rem, 2vw, 1.8rem);
-    line-height: 1.2;
-}
 
 .team-grid {
     display: grid;

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 960" width="1280" height="960" font-family="Calibre, Calibri, Carlito, 'Helvetica Neue', Arial, sans-serif" text-anchor="middle">
+<rect width="1280" height="960" fill="#ffffff"/>
+<line x1="192" y1="180" x2="1069" y2="430" stroke="#d6e9f4" stroke-width="18"/>
+<line x1="192" y1="180" x2="520" y2="735" stroke="#d6e9f4" stroke-width="18"/>
+<line x1="1069" y1="430" x2="520" y2="735" stroke="#d6e9f4" stroke-width="18"/>
+<line x1="192" y1="180" x2="1069" y2="430" stroke="#ffffff" stroke-width="14"/>
+<line x1="192" y1="180" x2="520" y2="735" stroke="#ffffff" stroke-width="14"/>
+<line x1="1069" y1="430" x2="520" y2="735" stroke="#ffffff" stroke-width="14"/>
+<circle cx="192" cy="180" r="167" fill="#fff" stroke="#d6e9f4" stroke-width="3"/>
+<circle cx="192" cy="180" r="154" fill="none" stroke="#d6e9f4" stroke-width="2"/>
+<text x="192" y="125" font-size="29" font-weight="700" fill="#799dad">Down to earth</text>
+<text x="192" y="166" font-size="23" fill="#a9d6ea">We love to keep things</text>
+<text x="192" y="194" font-size="23" fill="#a9d6ea">simple. No big gestures,</text>
+<text x="192" y="222" font-size="23" fill="#a9d6ea">no theatre or promising</text>
+<text x="192" y="250" font-size="23" fill="#a9d6ea">utopias.</text>
+<circle cx="1069" cy="430" r="205" fill="#fff" stroke="#d6e9f4" stroke-width="3"/>
+<circle cx="1069" cy="430" r="192" fill="none" stroke="#d6e9f4" stroke-width="2"/>
+<text x="1069" y="362" font-size="33" font-weight="700" fill="#799dad">Quality driven</text>
+<text x="1069" y="403" font-size="23" fill="#a9d6ea">Our professionalism doesn't</text>
+<text x="1069" y="431" font-size="23" fill="#a9d6ea">follow hype, it follows</text>
+<text x="1069" y="459" font-size="23" fill="#a9d6ea">quality. We believe in ever</text>
+<text x="1069" y="487" font-size="23" fill="#a9d6ea">growing and striving for</text>
+<text x="1069" y="515" font-size="23" fill="#a9d6ea">the best.</text>
+<circle cx="520" cy="735" r="215" fill="#fff" stroke="#d6e9f4" stroke-width="3"/>
+<circle cx="520" cy="735" r="202" fill="none" stroke="#d6e9f4" stroke-width="2"/>
+<text x="520" y="696" font-size="38" font-weight="700" fill="#799dad">User friendly</text>
+<text x="520" y="738" font-size="23" fill="#a9d6ea">With our solution we build</text>
+<text x="520" y="766" font-size="23" fill="#a9d6ea">bridges between user</text>
+<text x="520" y="794" font-size="23" fill="#a9d6ea">and systems.</text>
+</svg>

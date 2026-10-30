@@ -4,8 +4,39 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Calibre-Black";
+    src: url(fonts/Calibre-Black.otf);
+}
+
+@font-face {
+    font-family: "Calibre-Bold";
+    src: url(fonts/Calibre-Bold.otf);
+}
+
+@font-face {
+    font-family: "Calibre-Light";
+    src: url(fonts/Calibre-Light.otf);
+}
+
+@font-face {
+    font-family: "Calibre-Medium";
+    src: url(fonts/Calibre-Medium.otf);
+}
+
+@font-face {
+    font-family: "Calibre-Regular";
+    src: url(fonts/Calibre-Regular.otf);
+}
+
+@font-face {
+    font-family: "Calibre-Semibold";
+    src: url(fonts/Calibre-Semibold.otf);
+}
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Calibre', sans-serif;
     margin: 0;
 }
 
@@ -43,7 +74,7 @@ header {
 .nav-button {
     color: #799dab;
     text-decoration: none;
-    font-family: Arial, sans-serif;
+    font-family: 'Calibre', sans-serif;
     font-weight: bold;
     font-size: 14px;
     padding: 8px 15px;
@@ -59,7 +90,7 @@ header {
     align-items: center;
     gap: 8px;
     color: #799dab;
-    font-family: Arial, sans-serif;
+    font-family: 'Calibre', sans-serif;
     font-weight: bold;
     font-size: 14px;
     white-space: nowrap;
@@ -309,28 +340,34 @@ header {
     padding: 25px;
     width: 35%;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .feature-item {
     color: #799dab;
-    font-size: 18px;
-    margin-bottom: 25px;
+    font-size: 26px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .checkmark {
     color: #31c66a;
     font-weight: bold;
-    margin-right: 8px;
+    margin-right: 28px;
 }
 
 .contact-btn {
     display: inline-block;
+    align-self: flex-start;
     background-color: white;
     color: #799dab;
-    padding: 8px 20px;
-    border-radius: 20px;
+    padding: 10px 24px;
+    border-radius: 25px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .feature-media {
@@ -361,18 +398,18 @@ header {
 
 .stat-title {
     color: #799dab;
-    font-size: 12px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
 .stat-number {
     color: #31c66a;
-    font-size: 28px;
+    font-size: 36px;
 }
 
 .stat-sub {
     color: #799dab;
-    font-size: 10px;
+    font-size: 18px;
     margin-top: 10px;
 }
 

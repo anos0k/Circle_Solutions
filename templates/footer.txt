@@ -6,12 +6,12 @@
                     <span class="logo-mark"></span>
                     <span class="logo-text">
                         <span class="logo-title">circle<br>solutions</span>
-                        <span class="logo-tagline">just connect the dots</span>
+                        <span class="logo-tagline" data-translate="logo.tagline">just connect the dots</span>
                     </span>
                 </a>
 
                 <div class="footer-contact">
-                    <h3 class="footer-title">Contact</h3>
+                    <h3 class="footer-title" data-translate="footer.contact">Contact</h3>
                     <ul class="footer-list">
                         <li><a href="mailto:sarah@circlesolutions.io">sarah@circlesolutions.io</a></li>
                         <li><a href="tel:+31201234567">+31 (0)20 123 4567</a></li>
@@ -19,7 +19,6 @@
                     </ul>
                 </div>
             </div>
-
 
         </div>
     </footer>

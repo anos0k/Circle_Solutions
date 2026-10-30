@@ -1,0 +1,311 @@
+
+
+
+
+
+.aboutfirst {
+    padding-top: 50px;
+    padding-bottom: clamp(40px, 7vw, 100px);
+}
+
+.aboutfirst .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutfirst h2 {
+    max-width: 750px;
+    text-align: center;
+    font-size: clamp(2.4rem, 5vw, 3.8rem);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    color: var(--slot-bg);               
+}
+
+.aboutfirst p {
+    margin-top: 24px;
+    max-width: 780px;
+    font-size: clamp(1.05rem, 1.7vw, 1.35rem);
+    line-height: 1.4;
+    text-align: center; 
+}
+
+
+
+.about-us-pictures .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: start;
+}
+
+.about-us-pictures .container img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border: 0;
+    border-radius: 14px;
+    display: block;
+}
+
+.about-us-pictures .container img.upper {
+    aspect-ratio: 5 / 3;               
+    transform: translateY(-130px);      
+}
+
+
+.mission-line .container {
+    display: flex;
+    justify-content: center;
+}
+
+.mission-line p {
+    max-width: 780px;
+    text-align: center;
+    font-size: clamp(1.05rem, 1.7vw, 1.35rem);
+    line-height: 1.4;
+}
+
+
+
+.achivments .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    padding: 0;
+    border: 1.5px solid var(--line-soft);
+    border-radius: 14px;
+    backdrop-filter: none;
+}
+
+.achivments .container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 36px 16px;
+    border-right: 1.5px solid var(--line-soft);
+}
+
+.achivments .container div:last-child {
+    border-right: none;
+}
+
+.achivments .container div h2 {
+    font-size: clamp(2.4rem, 5vw, 4rem);
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    color: var(--brand-dark);
+}
+
+.achivments .container div p {
+    max-width: 190px;
+    text-align: left;
+    font-size: clamp(1.1rem, 2vw, 1.9rem);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--brand-dark);
+}
+
+
+
+.about-split {
+    padding-top: 0;
+}
+
+.about-split .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+
+.quote-mark {
+    display: block;
+    height: clamp(2.6rem, 4vw, 3.6rem);
+    font-size: clamp(5rem, 8vw, 7.5rem);
+    font-weight: 700;
+    line-height: 0.85;
+    color: var(--brand);
+}
+
+.last-mark {
+    display: block;
+    text-align: end;
+    height: clamp(2.6rem, 4vw, 3.6rem);
+    font-size: clamp(5rem, 8vw, 7.5rem);
+    font-weight: 700;
+    line-height: 0.85;
+    color: var(--brand);
+}
+
+.DaVinci p {
+    max-width: none;
+    margin-top: 12px;
+    font-style: italic;
+    font-size: clamp(1.3rem, 2.2vw, 2rem);
+    line-height: 1.5;
+    color: var(--brand-strong);
+}
+
+.DaVinci h2 {
+    display: block;
+    font-style: italic;
+    font-size: clamp(1.3rem, 2.2vw, 2rem);
+    line-height: 1.5;
+    color: var(--brand-strong);
+}
+
+.about-card {
+    background: var(--slot-bg);
+    border-radius: 16px;
+    padding: clamp(24px, 3vw, 40px) clamp(24px, 3.4vw, 46px) clamp(28px, 3.4vw, 46px);
+}
+
+.about-card__head {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.about-card h2 {
+    font-size: clamp(1.8rem, 2.6vw, 2.4rem);
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    line-height: 1;
+    color: var(--brand-dark);
+}
+
+.about-card p {
+    max-width: none;
+    font-size: clamp(1.05rem, 1.75vw, 1.4rem);
+    line-height: 1.4;
+}
+
+.about-card p + p {
+    margin-top: 1.3em;
+}
+
+
+
+.section-label {
+    display: flex;
+    gap: 14px;
+    margin-bottom: clamp(32px, 4vw, 56px);
+    font-size: clamp(1.2rem, 2.2vw, 2rem);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 1;
+    color: var(--brand-dark);
+}
+
+.section-label::before {
+    content: "";
+    flex-shrink: 0;
+    width: 0.9em;
+    height: 0.9em;
+    border-radius: 50%;
+    background: var(--brand);
+}
+
+
+
+.vm {
+    padding-top: 0;
+}
+
+.visionmision-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.visionmision-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: clamp(28px, 4vw, 56px) clamp(20px, 3vw, 44px);
+    background: #fff;
+    border: 1.5px solid var(--card-line);
+    border-radius: 16px;
+}
+
+.visionmision-card h3 {
+    margin-bottom: clamp(16px, 2vw, 28px);
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    line-height: 1;
+    color: var(--brand-dark);
+}
+
+.visionmision-card p {
+    max-width: 23ch;
+    font-size: clamp(1.4rem, 2.3vw, 2.1rem);
+    font-weight: 500;
+    line-height: 1.3;
+    color: var(--brand);
+}
+
+
+
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.member img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.member h3 {
+    margin-top: 18px;
+    font-size: clamp(1.4rem, 2.2vw, 1.9rem);
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--brand);
+}
+
+.member p {
+    margin-top: 6px;
+    max-width: none;
+    font-size: clamp(0.95rem, 1.4vw, 1.2rem);
+    line-height: 1.3;
+
+}
+
+
+
+.one {
+    padding-top: clamp(24px, 3vw, 40px);
+}
+
+.one h2 {
+    text-align: center;
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    font-weight: 700;
+    color: var(--brand-dark);
+}
+
+.one h2 span {
+    color: var(--brand);
+}
+
+

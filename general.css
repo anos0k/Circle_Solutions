@@ -1,0 +1,351 @@
+
+
+@font-face {
+    font-family: "Calibre";
+    src: url("assets/fonts/Calibre-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    ascent-override: 90%;
+    descent-override: 30%;
+    line-gap-override: 0%;
+}
+
+@font-face {
+    font-family: "Calibre";
+    src: url("assets/fonts/Calibre-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    ascent-override: 90%;
+    descent-override: 30%;
+    line-gap-override: 0%;
+}
+
+@font-face {
+    font-family: "Calibre";
+    src: url("assets/fonts/Calibre-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    ascent-override: 90%;
+    descent-override: 30%;
+    line-gap-override: 0%;
+}
+
+
+@font-face {
+    font-family: "Calibre-Black";
+    src: url("assets/fonts/Calibre-Black.otf") format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Calibre-Bold";
+    src: url("assets/fonts/Calibre-Bold.otf") format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Calibre-Light";
+    src: url("assets/fonts/Calibre-Light.otf") format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Calibre-Medium";
+    src: url("assets/fonts/Calibre-Medium.otf") format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Calibre-Regular";
+    src: url("assets/fonts/Calibre-Regular.otf") format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Calibre-Semibold";
+    src: url("assets/fonts/Calibre-Semibold.otf") format("opentype");
+    font-display: swap;
+}
+
+
+
+:root {
+
+    --container: 1280px;
+    --header-height: 10vh;
+
+
+    --brand: #a9d6ea;
+    --brand-strong: #b4d3e1;
+    --brand-dark: #799dad;
+    --ink: #08161e;
+    --text: #1f3c4a;
+    --line: #1c3a4a;
+    --line-soft: #b9d9e7;
+    --slot-bg: #cde8f4;
+    --surface-soft: #ddf0fe;
+    --border: #767676;
+    --transperante-white: #eefdff8e;
+    --ring: #d6e9f4;
+    --card-line: #dcebf4;
+
+
+    --primary: #799dab;
+    --primary-soft: #c4e9f7;
+    --primary-hover: #a9d6e8;
+    --surface: #dff3fb;
+    --surface-alt: #dcf1f9;
+    --surface-button: #e0f5fc;
+    --input: #c0dce6;
+    --input-alt: #b8dce8;
+    --success: #31c66a;
+    --star: #ffcc00;
+    --muted: #808080;
+    --white: #ffffff;
+    --circle-line: #d5eff8;
+    --nav-line: #c7eaf8;
+    --nav-line-soft: #c9ebf8;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: "Calibre", sans-serif;
+    font-weight: 400;
+    background: var(--white);
+    overflow-x: hidden;
+}
+
+.page {
+    color: var(--text);
+    line-height: 1;
+}
+
+.page h1 {
+    font-weight: 700;
+    color: var(--ink);
+}
+
+.page h2 {
+    font-weight: 500;
+    color: var(--brand-dark);
+}
+
+.page p {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: var(--border);
+    max-width: 62ch;
+}
+
+.page .container {
+    width: min(var(--container), calc(100% - 40px));
+    margin: 0 auto;
+}
+
+.page section {
+    padding: clamp(40px, 6.5vw, 85px) 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.header {
+    width: 100%;
+    padding: 35px 0;
+    backdrop-filter: blur(1px);
+}
+
+.header-container {
+    width: min(var(--container), calc(100% - 32px));
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    flex-shrink: 0;
+    color: var(--brand-dark);
+}
+
+.logo-mark {
+    width: clamp(45px, 5.2vw, 67px);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background: radial-gradient(circle closest-side,
+        transparent 0 71.5%,
+        var(--surface-soft) 72.5% 100%);
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-title {
+    font-size: clamp(24px, 2.3vw, 39px);
+    font-weight: 800;
+    line-height: 0.8;
+    letter-spacing: -0.02em;
+}
+
+.logo-tagline {
+    margin-top: 5px;
+    font-size: clamp(11px, 1.2vw, 15px);
+    font-weight: 500;
+    line-height: 1;
+}
+
+.nav-pill {
+    flex: 1;
+    max-width: 624px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 13px;
+    padding: 0 38px 0 19px;
+    background: var(--slot-bg);
+    border-radius: 999px;
+    color: var(--brand-dark);
+}
+
+.nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    font-size: clamp(14px, 1.4vw, 17px);
+    font-weight: 700;
+}
+
+.nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 19px;
+    border-radius: 999px;
+    color: var(--brand-dark);
+    line-height: 1;
+    transition: background-color .2s;
+}
+
+.nav a:hover,
+.nav a.is-current {
+    background: var(--brand-strong);
+}
+
+.lang-flag {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.lang-option {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: clamp(14px, 1.4vw, 17px);
+    font-weight: 700;
+}
+
+.lang-option:hover {
+    opacity: .8;
+}
+
+
+.site-footer {
+    background-color: var(--white);
+    padding: 20px 8%;
+    color: var(--primary);
+    font-size: 12px;
+    line-height: normal;
+}
+
+.back-to-top {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--white);
+    background-color: var(--primary-soft);
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+}
+
+.back-to-top a {
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.back-to-top a:hover {
+    text-decoration: underline;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-col {
+    font-family: "Calibre", sans-serif;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo img {
+    width: 200px;
+    height: auto;
+}
+
+.footer-col h3 {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col li {
+    margin-bottom: 6px;
+}
+
+.footer-col a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.footer-col a:hover {
+    text-decoration: underline;
+}

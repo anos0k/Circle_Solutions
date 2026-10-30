@@ -1,0 +1,139 @@
+body {
+    font-family: 'Calibre', sans-serif;
+    margin: 0;
+}
+
+.intro {
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto 20px;
+}
+
+.intro h2 {
+    color: var(--primary);
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.intro h2::before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: var(--nav-line-soft);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.intro p {
+    max-width: 350px;
+    margin: 0 0 0 24px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    align-items: stretch;
+}
+
+.contact {
+    width: 40%;
+    background: var(--surface-alt);
+    padding: 25px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.message {
+    flex: 1;
+    background: var(--surface-alt);
+    padding: 25px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.contact h2,
+.message h2 {
+    color: var(--primary);
+    font-size: 18px;
+}
+
+.contact p {
+    line-height: 1.4;
+}
+
+hr {
+    border: none;
+    border-top: 3px dotted var(--primary);
+    margin: 20px 0 15px;
+}
+
+.contact h3 {
+    color: var(--primary);
+    font-size: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.name {
+    display: flex;
+    gap: 15px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background: var(--input);
+    color: var(--white);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--white);
+}
+
+textarea {
+    height: 125px;
+    resize: vertical;
+}
+
+button {
+    width: 100px;
+    align-self: center;
+    background: var(--white);
+    color: var(--primary);
+    border: 1px solid var(--brand-strong);
+    border-radius: 20px;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+@media (max-width: 650px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .name {
+        flex-direction: column;
+    }
+}

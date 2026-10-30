@@ -10,23 +10,41 @@
 
     "hero.title": "Business success depends on intelligent, real-time custom software",
     "hero.text": "Circle Solutions provides a unified view of your entire operation—connecting systems, teams, and workflows without unnecessary fluff.",
+    "hero.mission": "We are on a mission to help organizations reach their full potential through smarter, calmer, and more efficient custom applications across global operations.",
 
     "stats.projects": "Projects Completed",
-    "stats.countries": "Countries we worked with",
+    "stats.countries": "Expanded to Countries",
     "stats.customers": "Happy Customers",
 
+    "quote.text": "Nature is pleased with simplicity. She does not deck herself out in theatrical ornament or useless clutter. To build something truly great, one must understand that every part must support the whole. When you connect isolated elements with purpose and clarity, the entire system functions with effortless grace.",
+
     "about.title": "About Us",
-    "about.text": "Circle Solutions develops custom software that helps businesses work more efficiently. We do this without the fuss — no unnecessary features, no complicated systems. Only what’s needed. Or, as we like to say: just connect the dots.",
+    "about.p1": "Every growing business eventually hits the same wall: operations get fragmented, software gets bloated, and team members spend more time switching between tools than actually doing work.",
+    "about.p2": "At circle solutions, we set out to break this pattern. We started with a simple observation—most software platforms try to do too much, overwhelming users with features they never use. We believed there had to be a calmer, smarter way to build digital infrastructure.",
+    "about.p3": "Today, we craft custom software solutions that connect systems, streamline daily workflows, and give leaders real-time operational clarity. No unnecessary fluff, no theatrical hype—just clean, purpose-built tools that connect the dots across global operations.",
 
-    "mission.title": "Our Mission",
-    "mission.text": "\"Our purpose is to develop software that fits the individual needs of each company, empowering people and businesses with software solutions.\"",
+    "vm.label": "Our Vision & Mission",
+    "vision.title": "Vision",
+    "vision.text": "We envision a world where using software is as easy and natural as breathing.",
+    "mission.title": "Mission",
+    "mission.text": "Our purpose is to develop software that fits individual qualities and individual needs—empowering people and businesses through calm, tailored tools.",
 
-    "why.title": "Why we do it",
-    "why.text": "We think everyday tasks should be hassle-free.",
-    "how.title": "How we do it",
-    "how.text": "By developing software that makes life easier.",
-    "what.title": "What we do",
-    "what.text": "Software solutions that fit the individual company.",
+    "values.label": "Our Core Values",
+    "values.earth.title": "Down to earth",
+    "values.earth.text": "We love to keep things simple. No big gestures, no theatre or promising utopias.",
+    "values.quality.title": "Quality driven",
+    "values.quality.text": "Our professionalism doesn't follow hype, it follows quality. We believe in ever growing and striving for the best.",
+    "values.user.title": "User friendly",
+    "values.user.text": "With our solution we build bridges between user and systems.",
+
+    "team.label": "Leadership & Founders",
+    "team.sub": "The minds behind the connections.",
+    "team.sarah.role": "Co-Founder & Chief Application Officer",
+    "team.alex.role": "Co-Founder & Chief Technology Officer",
+    "team.mark.role": "Head of Product & UX Design",
+
+    "one.before": "We are all",
+    "one.accent": "ONE",
 
     "footer.contact": "Contact"
 }

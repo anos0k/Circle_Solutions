@@ -397,6 +397,32 @@ section {
     background: var(--brand-strong);
 }
 
+.lang-menu::before {
+    content: "";
+    position: absolute;
+    top: -14px;
+    left: 0;
+    right: 0;
+    height: 14px;
+}
+ 
+.lang:hover .lang-menu,
+.lang:focus-within .lang-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+ 
+.lang:hover .lang-btn__chevron,
+.lang:focus-within .lang-btn__chevron {
+    transform: rotate(180deg);
+}
+ 
+.lang-option {
+    text-decoration: none;
+}
+ 
+
 @media (max-width: 900px) {
     .header-container {
         flex-wrap: wrap;

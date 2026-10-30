@@ -10,23 +10,41 @@
 
     "hero.title": "Zakelijk succes hangt af van slimme, real-time maatwerksoftware",
     "hero.text": "Circle Solutions biedt een totaaloverzicht van uw hele organisatie: systemen, teams en workflows worden verbonden, zonder onnodige poespas.",
+    "hero.mission": "Het is onze missie om organisaties te helpen hun volledige potentieel te bereiken met slimmere, rustigere en efficiëntere maatwerkapplicaties voor wereldwijde operaties.",
 
     "stats.projects": "Afgeronde projecten",
-    "stats.countries": "Landen waarmee we werkten",
+    "stats.countries": "Uitgebreid naar landen",
     "stats.customers": "Tevreden klanten",
 
+    "quote.text": "De natuur is tevreden met eenvoud. Ze tooit zich niet met theatrale sier of overbodige rommel. Om iets werkelijk groots te bouwen, moet je begrijpen dat elk onderdeel het geheel moet ondersteunen. Wanneer je losse elementen met doel en helderheid verbindt, functioneert het hele systeem met moeiteloze gratie.",
+
     "about.title": "Over ons",
-    "about.text": "Circle Solutions ontwikkelt maatwerksoftware waarmee bedrijven efficiënter kunnen werken. Dat doen we zonder gedoe — geen overbodige functies, geen ingewikkelde systemen. Alleen wat nodig is. Of, zoals wij het graag zeggen: verbind gewoon de puntjes.",
+    "about.p1": "Elk groeiend bedrijf loopt vroeg of laat tegen dezelfde muur aan: processen raken versnipperd, software wordt log en teamleden besteden meer tijd aan schakelen tussen tools dan aan echt werk.",
+    "about.p2": "Bij circle solutions wilden we dit patroon doorbreken. We begonnen met een eenvoudige constatering: de meeste softwareplatforms proberen te veel te doen en overspoelen gebruikers met functies die ze nooit gebruiken. Wij geloofden dat er een rustigere, slimmere manier moest zijn om digitale infrastructuur te bouwen.",
+    "about.p3": "Vandaag maken we maatwerksoftware die systemen verbindt, dagelijkse workflows stroomlijnt en leiders real-time operationeel inzicht geeft. Geen onnodige poespas, geen theatrale hype — alleen heldere, doelgerichte tools die de puntjes verbinden binnen wereldwijde operaties.",
 
-    "mission.title": "Onze missie",
-    "mission.text": "\"Ons doel is software te ontwikkelen die past bij de individuele behoeften van elk bedrijf, en mensen en bedrijven te versterken met softwareoplossingen.\"",
+    "vm.label": "Onze visie & missie",
+    "vision.title": "Visie",
+    "vision.text": "Wij zien een wereld voor ons waarin software gebruiken net zo makkelijk en natuurlijk is als ademhalen.",
+    "mission.title": "Missie",
+    "mission.text": "Ons doel is software te ontwikkelen die past bij individuele eigenschappen en behoeften — en mensen en bedrijven te versterken met rustige, op maat gemaakte tools.",
 
-    "why.title": "Waarom we het doen",
-    "why.text": "Wij vinden dat alledaagse taken probleemloos moeten verlopen.",
-    "how.title": "Hoe we het doen",
-    "how.text": "Door software te ontwikkelen die het leven makkelijker maakt.",
-    "what.title": "Wat we doen",
-    "what.text": "Softwareoplossingen die passen bij het individuele bedrijf.",
+    "values.label": "Onze kernwaarden",
+    "values.earth.title": "Nuchter",
+    "values.earth.text": "We houden van eenvoud. Geen grote gebaren, geen theater en geen utopische beloften.",
+    "values.quality.title": "Kwaliteitsgedreven",
+    "values.quality.text": "Onze professionaliteit volgt geen hypes, maar kwaliteit. We geloven in voortdurend groeien en streven naar het beste.",
+    "values.user.title": "Gebruiksvriendelijk",
+    "values.user.text": "Met onze oplossing bouwen we bruggen tussen gebruiker en systemen.",
+
+    "team.label": "Leiderschap & oprichters",
+    "team.sub": "De geesten achter de verbindingen.",
+    "team.sarah.role": "Medeoprichter & Chief Application Officer",
+    "team.alex.role": "Medeoprichter & Chief Technology Officer",
+    "team.mark.role": "Hoofd Product & UX-design",
+
+    "one.before": "Wij zijn allemaal",
+    "one.accent": "ÉÉN",
 
     "footer.contact": "Contact"
 }

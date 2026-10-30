@@ -1,0 +1,449 @@
+@font-face {
+    font-family: "Calibre-Black";
+    src: url(fonts/Calibre-Black.otf);
+}
+
+@font-face {
+    font-family: "Calibre-Bold";
+    src: url(fonts/Calibre-Bold.otf);
+}
+
+@font-face {
+    font-family: "Calibre-Light";
+    src: url(fonts/Calibre-Light.otf);
+}
+
+@font-face {
+    font-family: "Calibre-Medium";
+    src: url(fonts/Calibre-Medium.otf);
+}
+
+@font-face {
+    font-family: "Calibre-Regular";
+    src: url(fonts/Calibre-Regular.otf);
+}
+
+@font-face {
+    font-family: "Calibre-Semibold";
+    src: url(fonts/Calibre-Semibold.otf);
+}
+
+article {
+    margin: 0 150px 50px 150px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px 0px 150px;
+}
+
+.logo img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.logo button {
+    background-color: white;
+    border: 0px;
+}
+
+.navigation-bar {
+    background-color: #C7eaf8;
+    height: 50px;
+    width: 650px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-bar nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin: 0 100px 0 0;
+}
+
+.navigation-bar a {
+    text-decoration: none;
+    color: #799dab;
+    font-family: "Calibre-Semibold";
+}
+
+.navigation-bar a:hover {
+    text-decoration: underline;
+}
+
+.navigation-bar a.cover {
+    background-color: rgba(121, 157, 171, 0.3);
+    border-radius: 50px;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.intro img {
+    max-width: 500px;
+    max-height: 300px;
+    border-radius: 20px;
+}
+
+.intro .text-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+}
+
+.intro .text-left h1 {
+    font-family: "Calibre-Semibold";
+    color: #799dab;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+.intro .text-left p {
+    font-family: "Calibre-Regular";
+    color: grey;
+    margin: 0px 25px 0px 25px;
+}
+
+.intro button {
+    background-color: #dcf1f9;
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: #799dab;
+}
+
+.intro button a,
+.action-button a,
+.back a {
+    text-decoration: none;
+    font-family: "Calibre-Semibold";
+    color: #799dab;
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.subtitle img {
+    max-width: 20px;
+    max-height: 20px;
+    padding-right: 10px;
+}
+
+.subtitle h2 {
+    font-family: "Calibre-Semibold";
+    color: #799dab;
+    padding-top: 7px;
+    font-size: 35px;
+}
+
+.cards-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.first-card, .second-card, .third-card {
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+    background-color: #dcf1f9;
+}
+
+.first-card:hover .flip-card-inner,
+.second-card:hover .flip-card-inner,
+.third-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.front-card, .back-card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.back-card {
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 20px;
+    width: 350px;
+    height: 250px;
+}
+
+.front-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 10px 0px 10px;
+}
+
+.front-card img {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.front-card h4 {
+    font-family: "Calibre-Regular";
+    color: #799dab;
+    font-size: 25px;
+    padding: 0 25px;
+    margin: 10px 0 15px 0;
+}
+
+.second-card .front-card h4 {
+    padding: 0 50px;
+    margin: 0 0 15px 0;
+}
+
+.first-card .front-card h4 {
+    margin-top: 15px;
+}
+
+.front-card p {
+    font-family: "Calibre-Light";
+    color: gray;
+    margin: 0px 30px 0px 20px;
+}
+
+.back-card h5 {
+    font-family: "Calibre-Regular";
+    align-self: left;
+    font-size: x-large;
+    margin-bottom: 0px;
+    color: #799dab;
+}
+
+.back-card ul {
+    font-family: "Calibre-Light";
+    color: gray;
+}
+
+.back-card li {
+    text-align: left;
+    font-size: medium;
+    color: #799dab;
+}
+
+.first-row, .third-row, .fifth-row,
+.second-row, .fourth-row {
+    border-style: solid;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    border-color: #dcf1f9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.first-row, .third-row, .fifth-row {
+    justify-content: flex-start;
+}
+
+.second-row, .fourth-row {
+    justify-content: center;
+}
+
+.image-container {
+    height: 250px;
+    width: 2000px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 30px 0px 20px;
+}
+
+.first-row img,
+.image-container02 img,
+.image-container03 img,
+.image-container04 img,
+.image-container05 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.info h2, .info h3 {
+    font-family: "Calibre-Semibold";
+    color: #799dab;
+    margin-left: 50px;
+}
+
+.info p {
+    font-family: "Calibre-Light";
+    color: gray;
+    margin: 0 50px;
+}
+
+.image-container02,
+.image-container03,
+.image-container04 {
+    height: 250px;
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.direction-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.image-container05 {
+    height: 250px;
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.action-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-button h5 {
+    font-family: "Calibre-Bold";
+    color: #799dab;
+    font-size: x-large;
+}
+
+.action-button button,
+.back button {
+    background-color: #dcf1f9;
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: #799dab;
+    border-top: 0px;
+    font-family: "Calibre-Semibold";
+    color: #799dab;
+}
+
+.back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1510px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #C7eaf8;
+}
+
+.back button {
+    background-color: #C7eaf8;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #C7eaf8;
+    padding: 40px;
+}
+
+.image-container06 {
+    height: 100px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.image-container06 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.end {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    width: 1500px;
+    background-color: #dcf1f9;
+}
+
+.end h4 {
+    font-family: "Calibre-Semibold";
+    color: #799dab;
+    border-bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.end li, .end a {
+    font-family: "Calibre-Medium";
+    color: #799dab;
+    text-decoration: none;
+}
+
+.end li {
+    border-top: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.navigation, .contact-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 200px;
+    line-height: 30px;
+}

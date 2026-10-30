@@ -203,30 +203,30 @@ section {
 
 .header {
     width: 100%;
-    padding: 24px 0;
+    padding: 35px 0;
     backdrop-filter: blur(1px);
 }
 
 .header-container {
-    width: min(var(--container), calc(100% - 40px));
+    width: min(var(--container), calc(100% - 32px));
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    gap: 32px;
 }
 
 
 .logo {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 13px;
     flex-shrink: 0;
     color: var(--brand-dark);
 }
 
 .logo-mark {
-    width: clamp(56px, 6.5vw, 84px);
+    width: clamp(45px, 5.2vw, 67px);
     aspect-ratio: 1;
     border-radius: 50%;
     flex-shrink: 0;
@@ -241,15 +241,15 @@ section {
 }
 
 .logo-title {
-    font-size: clamp(30px, 2.9vw, 49px);
+    font-size: clamp(24px, 2.3vw, 39px);
     font-weight: 800;
     line-height: 0.8;
     letter-spacing: -0.02em;
 }
 
 .logo-tagline {
-    margin-top: 6px;
-    font-size: clamp(14px, 1.5vw, 19px);
+    margin-top: 5px;
+    font-size: clamp(11px, 1.2vw, 15px);
     font-weight: 500;
     line-height: 1;
 }
@@ -257,13 +257,13 @@ section {
 
 .nav-pill {
     flex: 1;
-    max-width: 780px;
-    height: 60px;
+    max-width: 624px;
+    height: 48px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 16px;
-    padding: 0 48px 0 24px;
+    gap: 13px;
+    padding: 0 38px 0 19px;
     background: var(--slot-bg);
     border-radius: 999px;
     color: var(--brand-dark);
@@ -274,8 +274,8 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 28px;
-    font-size: clamp(17px, 1.7vw, 21px);
+    gap: 22px;
+    font-size: clamp(14px, 1.4vw, 17px);
     font-weight: 700;
 }
 
@@ -283,7 +283,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 6px 24px;
+    padding: 5px 19px;
     border-radius: 999px;
     color: var(--brand-dark);
     line-height: 1;
@@ -297,18 +297,16 @@ section {
 
 
 .lang-flag {
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
     object-fit: cover;
-
 }
 
-.lang-option{
+.lang-option {
     display: flex;
     align-items: center;
-    gap: 4px;
-    font-size: clamp(17px, 1.7vw, 21px);
+    gap: 3px;
+    font-size: clamp(14px, 1.4vw, 17px);
     font-weight: 700;
-
 }

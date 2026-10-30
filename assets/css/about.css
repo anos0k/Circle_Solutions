@@ -124,14 +124,10 @@
     align-items: start;
 }
 
-.quote {
-    padding: 0 clamp(0px, 1vw, 12px);
-}
 
 .quote-mark {
     display: block;
     height: clamp(2.6rem, 4vw, 3.6rem);
-    font-family: Georgia, "Times New Roman", serif;
     font-size: clamp(5rem, 8vw, 7.5rem);
     font-weight: 700;
     line-height: 0.85;
@@ -142,14 +138,13 @@
     display: block;
     text-align: end;
     height: clamp(2.6rem, 4vw, 3.6rem);
-    font-family: Georgia, "Times New Roman", serif;
     font-size: clamp(5rem, 8vw, 7.5rem);
     font-weight: 700;
     line-height: 0.85;
     color: var(--brand);
 }
 
-.quote p {
+.DaVinci p {
     max-width: none;
     margin-top: 12px;
     font-style: italic;
@@ -158,7 +153,7 @@
     color: var(--brand-strong);
 }
 
-.quote cite {
+.DaVinci h2 {
     display: block;
     font-style: italic;
     font-size: clamp(1.3rem, 2.2vw, 2rem);
@@ -398,71 +393,3 @@
 }
 
 
-
-@media (max-width: 900px) {
-    .about-split .container,
-    .vm-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .team-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-
-
-    .values-map {
-        aspect-ratio: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .values-lines {
-        display: none;
-    }
-
-    .values-map .value-node {
-        position: relative;
-        left: auto;
-        top: auto;
-        transform: none;
-        width: min(100%, 380px);
-        padding: 36px;
-    }
-
-    .values-map .value-node h3 { font-size: 1.8rem; }
-    .values-map .value-node p  { font-size: 1rem; }
-}
-
-@media (max-width: 700px) {
-    .about-us-pictures .container {
-        grid-template-columns: 1fr;
-    }
-
-    .about-us-pictures .container img.upper {
-        transform: none;
-        aspect-ratio: 4 / 3;
-    }
-
-    .aboutfirst {
-        padding-bottom: 20px;
-    }
-
-    .achivments .container {
-        grid-template-columns: 1fr;
-    }
-
-    .achivments .container div {
-        border-right: none;
-        border-bottom: 1.5px solid var(--line-soft);
-    }
-
-    .achivments .container div:last-child {
-        border-bottom: none;
-    }
-
-    .team-grid {
-        grid-template-columns: 1fr;
-    }
-}

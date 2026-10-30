@@ -391,29 +391,3 @@ section {
     transform: rotate(180deg);
 }
  
-
-@media (max-width: 900px) {
-    .header-container {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .nav-pill {
-        flex: 1 1 100%;
-        max-width: none;
-    }
-}
-
-@media (max-width: 600px) {
-    .nav-pill {
-        height: auto;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 10px 16px;
-        border-radius: 28px;
-    }
-    .nav {
-        flex-wrap: wrap;
-        gap: 6px;
-    }
-}
-

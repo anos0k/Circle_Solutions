@@ -329,7 +329,7 @@ section {
 }
 
 .lang-btn:hover {
-    opacity: .7;
+    opacity: 0.7;
 }
 
 .lang-flag {
@@ -393,8 +393,7 @@ section {
     transition: background-color .2s;
 }
 
-.lang-option:hover,
-.lang-menu li[aria-selected="true"] .lang-option {
+.lang-option:hover{
     background: var(--brand-strong);
 }
 
